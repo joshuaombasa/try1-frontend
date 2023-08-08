@@ -28,7 +28,10 @@ export default function Login() {
             body : JSON.stringify(formData)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => {
+                localStorage.setItem('token', data.token)
+                console.log(data)
+            })
     }
 
     return (
