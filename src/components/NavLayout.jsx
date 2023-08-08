@@ -8,6 +8,7 @@ export default function NavLayout() {
                 <nav>
                     <Link to="signup">Sign up</Link>
                     <Link to="login">Login</Link>
+                    <Link to="admin">Admin</Link>
                 </nav>
             </header>
             <Outlet/>
