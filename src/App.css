@@ -60,7 +60,7 @@ input {
     font-size: 1.3rem;
 }
 
-.submit--btn {
+.submit--btn, .logout--btn {
     padding: .5em 1em;
     font-size: 1.5rem;
     font-weight: bold;
