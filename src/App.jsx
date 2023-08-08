@@ -4,7 +4,7 @@ import './App.css'
 import NavLayout from './components/NavLayout'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
-
+import Admin from './pages/Admin'
 function App() {
  
 
@@ -15,6 +15,7 @@ function App() {
       <Route path='/' element={<NavLayout/>}>
          <Route path='signup' element={<SignUp/>}/>
          <Route path='login' element={<Login/>}/>
+         <Route path='admin' element={<Admin/>}/>
       </Route>
     </Routes>
    
